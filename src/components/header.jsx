@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header className="flex h-20 items-center justify-center bg-black">
-      <div className="flex w-[80%] max-w-[760px] justify-between align-middle">
+      <div className="flex w-[80%] max-w-[760px] justify-between">
         <Link to="/" className="text-2xl font-bold text-white">
           PrimeFlix
         </Link>
