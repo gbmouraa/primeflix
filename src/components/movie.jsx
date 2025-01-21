@@ -11,7 +11,7 @@ export const Movie = ({ data }) => {
         />
         <Link
           className="inline-block w-full bg-blue-500 py-2 text-lg font-medium text-white"
-          to={`/movie-details`}
+          to={`/movie-details/${data.id}`}
         >
           Acessar
         </Link>
