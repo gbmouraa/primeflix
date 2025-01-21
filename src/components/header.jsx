@@ -8,7 +8,7 @@ export const Header = () => {
           PrimeFlix
         </Link>
         <Link
-          to="/favoritos"
+          to="/favorite"
           className="inline-block rounded bg-blue-500 p-2 text-sm text-white transition-all hover:opacity-85"
         >
           Meus filmes
